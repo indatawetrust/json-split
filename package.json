@@ -1,0 +1,32 @@
+{
+  "name": "json-split",
+  "version": "0.0.1",
+  "description": "Split tool for large json files",
+  "main": "index.js",
+  "dependencies": {
+    "jsonfile": "^3.0.0",
+    "stream-json": "^0.4.2",
+    "yargs": "^8.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "json-split": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/indatawetrust/json-split.git"
+  },
+  "keywords": [
+    "json",
+    "split"
+  ],
+  "author": "indatawetrust",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indatawetrust/json-split/issues"
+  },
+  "homepage": "https://github.com/indatawetrust/json-split#readme"
+}
